@@ -1,6 +1,6 @@
-import LogoKasa from "../assets/LOGO.svg";
+import LogoKasa from "../../assets/LOGO.svg";
 import { Link } from "react-router-dom";
-import "../styles/Header.css";
+import "./Header.css";
 
 function Header() {
   return (

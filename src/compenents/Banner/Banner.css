@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap');
+
+.imgBanner {    
+	background: rgba(0,0,0) url(../../assets/bannerhome.svg) no-repeat  center center;
+   /* mix-blend-mode: darken;
+    opacity: 0.9;*/
+    border-radius: 25px;
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;    
+     
+}
+.bannerTitle {
+    color: white;
+    font-size: 250%;
+}
+    
