@@ -1,0 +1,108 @@
+@media (992px <=width) {
+
+.cardBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.cardImage {
+    width: 385px;
+    height: 385px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: relative;
+    margin-bottom: 15%;
+    
+}
+.cardBox::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 385px;
+        height: 385px;
+        border-radius: 20px;
+        background: linear-gradient(0deg, rgba(23,23,22,0.6) 4%, rgba(197,196,198,0) 96%);
+}
+.cardLink {
+    position: absolute;
+    top: 320px;
+    left: 15px;
+    font-size: 150%;
+    color: white;
+    z-index: 1;
+}
+}
+
+@media (768px <=width <992px) {
+    .cardBox {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    
+    }
+    .cardImage {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        object-fit: cover;
+        position: relative;
+       margin-bottom: 10%;
+        
+    }
+    .cardBox::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            background: linear-gradient(0deg, rgba(23,23,22,0.6) 4%, rgba(197,196,198,0) 96%);
+    }
+    .cardLink {
+        position: absolute;
+        top: 240px;
+        left: 15px;
+        font-size: 120%;
+        color: white;
+        z-index: 1;
+    }
+
+}
+@media (width < 768PX) {
+    .cardBox {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    
+    }
+    .cardImage {
+        width: 480px;
+        height: 480px;
+        border-radius: 20px;
+        object-fit: cover;
+        position: relative;
+        margin-bottom: 15%;
+        
+    }
+    .cardBox::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 480px;
+            height: 480px;
+            border-radius: 20px;
+            background: linear-gradient(0deg, rgba(23,23,22,0.6) 4%, rgba(197,196,198,0) 96%);
+    }
+    .cardLink {
+        position: absolute;
+        top: 400px;
+        left: 15px;
+        font-size: 150%;
+        color: white;
+        z-index: 1;
+    }
+}

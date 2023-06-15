@@ -1,0 +1,20 @@
+.galleryList {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5%;
+    width: 100%;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    margin-top: 4%;
+   padding: 4%;
+}
+@media (992px <=width) {
+    .galleryList{
+        gap: 8%;
+    }
+}
+
+

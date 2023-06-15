@@ -1,11 +1,13 @@
+@media (width < 768PX) {
 .collapse {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0.3% 1.5% 0.3% 1.5%;
+    padding: 0.3% 3% 0.3% 3%;
+    margin-top: 30px;
     background-color: #FF6060;
-    height: 60px;
+    height: 40px;
 }
 .collapseIcone {
     width: 30px;
@@ -15,7 +17,7 @@
     font-family: Montserrat;
     font-weight: 400;
     color: white;
-    font-size: 180%;
+    font-size: 150%;
 }
 .toggle {
     background-color: #F6F6F6;
@@ -23,7 +25,19 @@
 }
 .toggleText {
     color: #FF6060;
-    font-size: 150%;
-    margin: 0px;
+    font-size: 130%;
+    padding: 0.3% 3% 0.3% 3%; 
+}
+.collapseBox {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+}
+@media (768px <=width <992px) {
+
 }
 
+@media (992px <=width) {
+    
+}

@@ -18,13 +18,10 @@ function Gallery() {
   }, []);
 
   return (
-    <div>
-      <h1>Galerie composant</h1>
-      <ul>
-        {dataLocation.map((location) => (
-          <Card key={location.id} location={location}></Card>
-        ))}
-      </ul>
+    <div className="galleryList">
+      {dataLocation.map((location) => (
+        <Card key={location.id} location={location}></Card>
+      ))}
     </div>
   );
 }

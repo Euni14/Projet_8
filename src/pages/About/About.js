@@ -26,8 +26,8 @@ const aboutContents = [
 function About(props) {
   return (
     <div>
-      <h1>About composant</h1>
-      <div className="imageAbout">fait moi voir </div>
+      {/*<h1>About composant</h1>*/}
+      <div className="imageAbout"></div>
 
       {aboutContents.map((aboutContent) => (
         <Collapse
