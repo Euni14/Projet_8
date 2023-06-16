@@ -12,18 +12,17 @@ function Location() {
         const response = await fetch("http://localhost:3000/location.json");
         const currLocation = await response.json();
         const concernedLocation = currLocation.filter((l) => l.id === id);
-
         setCurrentLocation(concernedLocation[0]);
-        console.log(currentLocation.pictures);
       } catch (e) {
         console.log(e);
       }
     })();
-  }, [id, currentLocation.pictures]);
+  }, []);
 
   return (
     <div>
       <h1>Location composant {currentLocation.title}</h1>
+      {console.log(currentLocation)}
       <Carrousel
         key={["picture-", id].join("-")}
         photos={currentLocation.pictures}

@@ -26,7 +26,7 @@
 .toggleText {
     color: #FF6060;
     font-size: 130%;
-    padding: 0.3% 3% 0.3% 3%; 
+    padding: 2% 3% 2% 3%;
 }
 .collapseBox {
     width: 80%;
@@ -35,9 +35,76 @@
 }
 }
 @media (768px <=width <992px) {
-
-}
-
-@media (992px <=width) {
+    .collapse {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.3% 3% 0.3% 3%;
+        margin-top: 30px;
+        background-color: #FF6060;
+        height: 40px;
+    }
+    .collapseIcone {
+        width: 30px;
+        height: 30px;
+    }
+    .collapseTitle {
+        font-family: Montserrat;
+        font-weight: 400;
+        color: white;
+        font-size: 150%;
+    }
+    .toggle {
+        background-color: #F6F6F6;
     
+    }
+    .toggleText {
+        color: #FF6060;
+        font-size: 130%;
+        padding: 2% 3% 2% 3%; 
+    }
+    .collapseBox {
+        width: 80%;
+        display: block;
+        margin: auto;
+}
+}
+@media (992px <=width) {
+    .collapse {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        padding: 0.3% 3% 0.3% 3%;
+        background-color: #FF6060;
+        height: 60px;
+    }
+    .collapseIcone {
+        width: 35px;
+        height: 35px;
+    }
+    .collapseTitle {
+        font-family: Montserrat;
+        font-weight: 400;
+        color: white;
+        font-size: 180%;
+    }
+    .toggle {
+        background-color: #F6F6F6;
+    
+    }
+    .toggleText {
+        color: #FF6060;
+        font-size: 160%;
+        padding: 2% 3% 2% 3%; 
+        margin-bottom: 50px;
+
+    }
+    .collapseBox {
+        width: 80%;
+        display: block;
+        margin: auto;
+}
 }
