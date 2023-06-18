@@ -1,5 +1,5 @@
 
-.banner {
+.carrousel {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -8,7 +8,7 @@
 	min-height: 470px;
 	position: relative;
 }
-.banner-img {
+.carrouselImage {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -18,20 +18,22 @@
 }
 /* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
 /* Gestion des fleches du carrousel */
-.banner .arrow {
-	position: absolute;
+.carrousel .arrow {
+	position: absolute;	
 }
-.banner .arrow_left {
+.carrousel .arrow_left {
 	left: 10px;
+	
 }
-.banner .arrow_right {
+.carrousel .arrow_right {
 	right: 10px;
 }
 /* Gestion des points du carrousel */
 .dots {
-	position: absolute;
+	display: none;
+	/*position: absolute;
 	bottom: 40px;
-	display: flex;
+	display: flex;*/
 }
 .dot {
 	margin-inline: 5px;
@@ -40,15 +42,30 @@
 	background-color: #ffffff00;
 	border: 3px solid #fff;
 	border-radius: 100%;
-	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .dot_selected {
 	background-color: #fff;
 }
 /* Fin du code CSS pour le carousel */
 
-.banner span {
+.carrousel span {
 	display: block;
 	font-weight: 400;
 	font-size: 30px;
+	
 }
+.imageArrowLeft {
+width: 20px;
+height: 30px;
+}
+.imageArrowRight {
+	width: 20px;
+	height: 30px;
+}
+
+@media (992px <=width) {}
+
+	@media (768px <=width <992px) {
+
+	}

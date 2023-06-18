@@ -1,0 +1,63 @@
+.styleOne {
+    font-size: 230%;
+    color: #FF6060;
+    margin-top: 30px;
+}
+
+.styleFour {
+    font-size: 150%;
+    color: #FF6060;
+    margin: 35px 0px 40px 0px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.rating img {
+    width: 20%;
+}
+
+.owner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 145%;
+    color: #FF6060;
+}
+
+.managerImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+
+}
+
+.managerName {
+    width: 42%;
+}
+
+.rightInformation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px 50px 0px;
+}
+
+
+.tagLocation  {
+    color: white;
+    font-size: 120%;
+    border-radius: 15px;
+    border: 1px solid #FF6060;
+    background-color: #FF6060;
+    margin: 0px 20px 20px 0px;
+    padding: 2% 4%;
+}
+.globalTag {
+    display: flex;
+    flex-flow: row wrap;
+}
