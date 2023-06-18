@@ -17,7 +17,8 @@
 }
 
 .rating img {
-    width: 20%;
+    width: 20px;
+
 }
 
 .owner {
@@ -60,4 +61,35 @@
 .globalTag {
     display: flex;
     flex-flow: row wrap;
+}
+@media (992px <=width) {
+    .rating img {
+        width: 50px;
+    }
+    .generalInformation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 40px;
+
+    }
+    .rightInformation {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .styleOne {
+        font-size: 300%;
+    }
+    .styleFour {
+        font-size: 180%;
+    }
+    .tagLocation  {
+        font-size: 160%;
+        border-radius: 17px;
+        border: 1px solid #FF6060;
+        background-color: #FF6060;
+        margin: 20px 35px 20px 0px;
+        padding: 2% 5%;
+    }
 }

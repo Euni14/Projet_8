@@ -22,6 +22,9 @@
     font-size: 200%;
     padding:0px 20px 0px 20px ;
     }
+    .navlink a:hover {
+        text-decoration: underline;
+            }
 }
 @media (768px <=width <992px) {
     .navbar {
@@ -49,6 +52,9 @@
     }
 }
 @media (width < 768PX) {
+    .navlink a:hover {
+        text-decoration: underline;
+            }
     .navbar {
     
         display: flex;
@@ -72,4 +78,6 @@
     font-size: 120%;
     padding:0px 15px 0px 15px ;
     }
+    
+    
 }

@@ -1,0 +1,41 @@
+.errorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorPage {
+    margin: 200px 0px 50px 0px;
+    width: 90%;
+    height: 150px;
+}
+
+.errorColor {
+color: #FF6060;
+}
+.backToHome {
+    text-decoration: underline; 
+    font-size: 140%;
+    margin-top: 250px;
+}
+.errorContainer p {
+    text-align: center;
+    font-size: 180%;
+    font-weight: 500;
+}
+@media (992px <=width) {
+    
+}
+
+
+@media (768px <=width <992px) {
+    .errorPage {
+         height: 190px;
+    }
+    .errorContainer p {      
+        text-align: center;
+        font-size: 180%;
+        font-weight: 500;
+    }
+}

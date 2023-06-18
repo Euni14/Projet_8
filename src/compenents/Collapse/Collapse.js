@@ -11,7 +11,7 @@ function Collapse(props) {
   };
 
   return (
-    <div>
+    <div className="collapseContainer">
       <div className="collapse" onClick={toggle}>
         <h2 className="collapseTitle">{props.title}</h2>
         <img

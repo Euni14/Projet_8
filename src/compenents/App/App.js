@@ -10,21 +10,23 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container">
-      <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} errorElement={<Error />} />
-          <Route path="*" element={<Error />} />
-          <Route path="/about" element={<About />} errorElement={<Error />} />
-          <Route
-            path="/location/:id"
-            element={<Location />}
-            errorElement={<Error />}
-          />
-        </Routes>
-        <Footer />
-      </Router>
+    <div>
+      <div className="container">
+        <Router>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} errorElement={<Error />} />
+            <Route path="*" element={<Error />} />
+            <Route path="/about" element={<About />} errorElement={<Error />} />
+            <Route
+              path="/location/:id"
+              element={<Location />}
+              errorElement={<Error />}
+            />
+          </Routes>
+        </Router>
+      </div>
+      <Footer />
     </div>
   );
 }

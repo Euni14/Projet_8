@@ -55,16 +55,28 @@
 	font-size: 30px;
 	
 }
-.imageArrowLeft {
-width: 20px;
+
+.arrow img{
+	width: 20px;
 height: 30px;
 }
-.imageArrowRight {
-	width: 20px;
-	height: 30px;
-}
 
-@media (992px <=width) {}
+@media (768px <=width) {
+	.dots {
+
+		position: absolute;
+		bottom: 40px;
+		display: flex;
+		color: white;
+		font-size: 30px;
+	}
+	.arrow img {
+		width: 40px;
+		height: 60px;
+		}
+		 
+		
+}
 
 	@media (768px <=width <992px) {
 

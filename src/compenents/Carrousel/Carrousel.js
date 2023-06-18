@@ -42,12 +42,12 @@ function Carrousel(props) {
       )}
       {dataPictures?.length > 1 && (
         <a id="arrowleft" className="arrow arrow_left" onClick={prevSlide}>
-          <img className="imageArrowLeft" src={arrowLeft} alt="Previous" />
+          <img src={arrowLeft} alt="Previous" />
         </a>
       )}
       {dataPictures?.length > 1 && (
         <a id="arrowright" className="arrow arrow_right" onClick={nextSlide}>
-          <img className="imageArrowRight" src={arrowRight} alt="Next" />
+          <img src={arrowRight} alt="Next" />
         </a>
       )}
     </div>
