@@ -5,7 +5,6 @@ import "./Home.css";
 function Home() {
   return (
     <div>
-      <h1>Home composant</h1>
       <Banner />
       <Gallery />
     </div>

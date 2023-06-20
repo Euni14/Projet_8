@@ -27,9 +27,9 @@ function Carrousel(props) {
           return (
             <img
               className="carrouselImage"
-              key={slide}
+              key={index}
               src={slide}
-              alt="Image du bien à louer"
+              alt="du bien à louer"
             />
           );
         }

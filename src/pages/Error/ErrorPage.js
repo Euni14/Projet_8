@@ -1,14 +1,14 @@
 import errorPage from "../../assets/errorPage.svg";
-import "./Error.css";
+import "./ErrorPage.css";
 import { Link } from "react-router-dom";
 
-function Error() {
+function ErrorPage() {
   return (
     <div className="errorContainer">
       <img className="errorPage" src={errorPage} alt="page erreur" />
-      <p className="errorColor">
-        Oups! La page que vous demandez n'existe pas.
-      </p>
+      <div className="errorColor">
+        <p>Oups! La page que&nbsp;</p> <p>vous demandez n'existe pas.</p>
+      </div>
       <Link to="/" className="errorColor backToHome">
         Retourner sur la page d'accueil
       </Link>
@@ -16,4 +16,4 @@ function Error() {
   );
 }
 
-export default Error;
+export default ErrorPage;
